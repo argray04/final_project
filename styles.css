@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.menu-container {
+    color: #fff;
+    background-color: #1f2937;  /* Blue */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu {
+    /* For debugging */
+   width: 900px;
+   display: flex;
+   justify-content: space-between;
+ }
+  
