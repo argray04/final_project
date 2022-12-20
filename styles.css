@@ -16,6 +16,32 @@
     /* For debugging */
    width: 900px;
    display: flex;
-   justify-content: space-between;
  }
+
+.header-logo{
+  Display: flex;
+  font-size: 18px;
+  color: #E5E7EB;
+  justify-content: flex-start;
+}
+
+.head-right{
+Display: flex;
+justify-content: flex-end;
+}
+
+.header-container{
+  color: #fff;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+
+.header{
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
   
