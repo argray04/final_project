@@ -53,3 +53,39 @@
   align-items: center;
 }
 
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+.first-item{
+  order: 1;
+}
+
+.last-item{
+  order: -1;
+}
+
+.some-random-information{
+  display: flex;
+  justify-content: center;
+}
+
+.text-container{
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
